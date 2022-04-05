@@ -71,7 +71,11 @@ public class Restaurant {
      * @return total order amount
      */
     public int computeTotalOrderAmount(List<Item> selectedItems) {
-       return 0;
+        int totalAmount = 0;
+        for(Item item : selectedItems) {
+            totalAmount+= item.getPrice();
+        }
+        return totalAmount;
     }
 
 }
