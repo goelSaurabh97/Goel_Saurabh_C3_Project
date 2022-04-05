@@ -64,4 +64,14 @@ public class Restaurant {
         return name;
     }
 
+    /**
+     * This method computes total order amount for the selected items from menu
+     *
+     * @param selectedItems - list of selected items from the menu
+     * @return total order amount
+     */
+    public int computeTotalOrderAmount(List<Item> selectedItems) {
+       return 0;
+    }
+
 }
